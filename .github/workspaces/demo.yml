@@ -1,8 +1,7 @@
 name: Greetings
 on:
   push:
-    branches:
-      - main
+    branches:[ main ]
 jobs:
   say-hello:
     runs-on: Ubuntu-latest
